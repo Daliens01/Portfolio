@@ -38,10 +38,16 @@ module.exports = {
           loader: 'babel-loader', // Usa babel-loader para transpilarlos
         },
       },
+      // {
+      //   test: /\.css$/, // Aplica esta regla a archivos .css
+      //   use: ['style-loader', 'css-loader'], // Usa style-loader y css-loader
+        
+      // },
       {
-        test: /\.css$/, // Aplica esta regla a archivos .css
-        use: ['style-loader', 'css-loader'], // Usa style-loader y css-loader
-      },
+        test: /\.css$/i,
+        include: path.resolve(__dirname, 'src'),
+        use: ['style-loader', 'css-loader', 'postcss-loader'],
+      }
       // Puedes añadir reglas para imágenes, fuentes, etc. aquí
     ],
   },

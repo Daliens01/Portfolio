@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'; // Importa desde 'react-dom/client'
 import App from './App'; // Importa tu componente principal
+import './App.css';
 
 // Selecciona el elemento HTML donde quieres montar tu aplicación React
 const rootElement = document.getElementById('root');
