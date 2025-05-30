@@ -2,16 +2,19 @@ import React from "react";
 
 const Nav = () =>{
     return(
-        <div>
-        <ul  className= " flex" >
-            <li className=" flex-none p-1.5 border-amber-300 border-2 ">
+        <nav>
+        <ul  className= "grid grid-flow-col justify-items-end nav" >
+            <li className="  p-1.5  ">
                  <a href="/" >Home</a>
             </li>
-            <li className="w-14 flex-auto p-1.5">
+            <li className="  p-1.5  ">
                 <a href="/about" >About Me</a>
             </li>
+            <li className="  p-1.5">
+                <a href="/projects" >My projects</a>
+            </li>
         </ul>
-        </div>
+        </nav>
     )
 }
 
