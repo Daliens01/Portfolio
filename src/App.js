@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css'; // Importa un archivo CSS si lo necesitas
 import { Routes, Route, BrowserRouter as MainRouter } from 'react-router-dom';
 
-import Home from "./Routes/Home.jsx"
+import {Home} from "./Routes/Home.jsx"
 import Nav from './Routes/Nav.jsx';
 import AboutMe from './Routes/AboutMe.jsx';
 import NotFound from "./Routes/NotFound.jsx"

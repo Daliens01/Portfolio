@@ -11,7 +11,7 @@ const AboutMe = () => {
         h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={profilePic} alt="" />
         <div class="flex flex-col justify-between p-4 leading-normal">
           <h5 class="mb-2 text-2xl font-bold tracking-tight ">Who am i?</h5>
-          <p class="mb-3 font-normal  ">
+          <p class="mb-3 font-normal hidden hover:block absolute  ">
             I'm a TI Engineer graduated at the
             <a className="m-1 font-bold no-underline hover:underline text-blue-500" target="_blank" href="http://www.utsv.com.mx/">
               Universidad Tecnologia del Sureste de Veracruz.</a>
