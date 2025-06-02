@@ -8,3 +8,7 @@
 body{
     background-color: rgba(242, 255, 238, 0.644);
 }
+.customimage{
+    background-image: url("../dist/bghome.png");
+    
+}

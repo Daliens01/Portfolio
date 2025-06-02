@@ -2,7 +2,7 @@ import React from 'react'
 
 const TimeLine = () => {
     return (
-        <>
+        <div className='py-40'>
             Timeline
             <ul>
                 <li >
@@ -14,7 +14,7 @@ const TimeLine = () => {
                     <p>i start to work at the ESIAPI sice 2022 as Manager and Tech Support of an Online Platfform </p>
                 </li>
             </ul>
-        </>
+        </div>
     )
 }
 

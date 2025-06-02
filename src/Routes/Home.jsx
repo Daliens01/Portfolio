@@ -11,7 +11,7 @@ const Home = () => {
 
     return (
         <div className=" items-center justify-center">
-            <div className="border-2 bg-amber-200 flex flex-row place-content-center ">
+            <div className="border-2 flex flex-row place-content-center py-40 customimage">
                 <div className=" place-self-center">
                     <h1 className="text-3xl font-bold ">Wellcome to my portfolio</h1>
                     <p>Do you want to know about me? there are some of my project down below</p>
@@ -24,7 +24,6 @@ const Home = () => {
 
             </div>
            <div><TimeLine/></div>
-           <div id="about"><AboutMe/></div>
            <div id="about"><AboutMe/></div>
            <div id="projects"><Projects/></div>
             
