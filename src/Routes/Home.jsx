@@ -1,5 +1,5 @@
 import React from "react";
-import Bunisessmanpic from "../../dist/bunisesman.png"
+import Bunisessmanpic from "../assets/bunisesman.png"
 import TimeLine from "../pages/timeline";
 import AboutMe from "./AboutMe";
 import Projects from "./projects";
@@ -23,10 +23,9 @@ const Home = () => {
                 </div>
 
             </div>
-           <div><TimeLine/></div>
-           <div id="about"><AboutMe/></div>
-           <div id="projects"><Projects/></div>
-            
+            <div id="projects"><Projects /></div>
+            <div id="about"><AboutMe /></div>
+            <div><TimeLine /></div>
         </div>
     )
 }

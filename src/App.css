@@ -9,6 +9,17 @@ body{
     background-color: rgba(242, 255, 238, 0.644);
 }
 .customimage{
-    background-image: url("../dist/bghome.png");
+    background-image: url("../src//assets/bghome.png");
     
+}
+
+.children-who-i-am {
+    opacity: 0; /* Inicialmente invisible */
+    visibility: hidden; /* Inicialmente oculto y no ocupa espacio */
+    transition: opacity 0.5s ease-in-out, visibility 0s linear 0.5s; 
+}
+.main-who-i-am:hover .children-who-i-am{
+    opacity: 1; /* Visible */
+    visibility: visible;
+    transition: opacity 0.5s ease-in-out, visibility 0s linear 0s;
 }
