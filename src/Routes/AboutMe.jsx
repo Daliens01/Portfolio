@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="flex my-4 justify-center">
       {/* who am i */}
-      <a  className="mx-4 flex flex-col items-center bg-white border border-gray-200 
+      <div  className="mx-4 flex flex-col items-center bg-white border border-gray-200 
       rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100
        dark:border-gray-700 dark:bg-gray-100 dark:hover:bg-gray-300 main-who-i-am">
         <img className="object-cover w-full rounded-t-lg 
@@ -23,9 +23,9 @@ const AboutMe = () => {
 
           </p>
         </div>
-      </a>
+      </div>
       {/* what i like to do */}
-      <a  className="mx-4 flex flex-col items-center bg-white border border-gray-200 
+      <div className="mx-4 flex flex-col items-center bg-white border border-gray-200 
       rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100
        dark:border-gray-700 dark:bg-gray-100 dark:hover:bg-gray-300 main-who-i-am">
         <img className="object-cover w-full rounded-t-lg 
@@ -39,9 +39,9 @@ const AboutMe = () => {
            and something just click in my mind
           </p>
         </div>
-      </a>
+      </div>
       {/* what i want to do */}
-      <a  className="mx-4 flex flex-col items-center bg-white border border-gray-200 
+      <div  className="mx-4 flex flex-col items-center bg-white border border-gray-200 
       rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100
        dark:border-gray-700 dark:bg-gray-100 dark:hover:bg-gray-300 main-who-i-am">
         <img className="object-cover w-full rounded-t-lg 
@@ -52,7 +52,7 @@ const AboutMe = () => {
             i can see me developing in a big tech company doing what i love to do
           </p>
         </div>
-      </a>
+      </div>
     </div>
   )
 }

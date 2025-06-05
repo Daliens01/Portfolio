@@ -9,7 +9,7 @@ body{
     background-color: rgba(242, 255, 238, 0.644);
 }
 .customimage{
-    background-image: url("../src//assets/bghome.png");
+    background-image: url("assets/bghome.png");
     
 }
 
