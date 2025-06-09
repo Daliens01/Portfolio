@@ -1,7 +1,7 @@
 @import "tailwindcss" ;
 
 .nav{
-    background: linear-gradient(  rgba(192, 236, 179, 0.979),rgba(192, 236, 179, 0));
+    background: linear-gradient(  rgba(166, 243, 143, 0.979),rgba(192, 236, 179, 0));
     position: sticky;
     z-index: 0;
 }

@@ -12,7 +12,6 @@ function App() {
 
     return (
         <>
-         <link href="../src/App.css" rel="stylesheet"></link>
             <MainRouter>
             <Nav/>
                 <Routes>

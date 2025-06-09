@@ -2,7 +2,7 @@ import React from "react";
 import profilePic from "../assets/profilepic.jpg"
 const AboutMe = () => {
   return (
-    <div className="flex my-4 justify-center">
+    <div className="flex my-4 justify-center  z-30">
       {/* who am i */}
       <div  className="mx-4 flex flex-col items-center bg-white border border-gray-200 
       rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100
