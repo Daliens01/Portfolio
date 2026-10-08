@@ -7,11 +7,11 @@ const Nav = () =>{
             <li className="  p-1.5 mx-5  ">
                  <a href="/" >Home</a>
             </li>
-            <li className="  p-1.5 mx-5  ">
-                <a href="#about" >About Me</a>
-            </li>
             <li className="  p-1.5 mx-5 ">
-                <a href="#projects" >My projects</a>
+                <a href={"/#projects"} >My projects</a>
+            </li>
+            <li className="  p-1.5 mx-5  ">
+                <a href="/#about" >About Me</a>
             </li>
         </ul>
         </nav>
