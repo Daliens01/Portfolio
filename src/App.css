@@ -8,13 +8,17 @@
 body{
     background-color: rgba(239, 243, 238, 0.644);
 }
-.mi-div {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL5wqn6EKkyHyQoYExvOhbh5fMe1ax2BT5zpNVFKOY9Q&s');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 400px; /* Es necesario definir una altura para que el div sea visible */
+.cardimg {
+  width: 100%;       /* O el ancho que tú quieras (ej. 300px) */
+  height: 200px;     /* Es necesario definir una altura para ver el efecto */
+  overflow: hidden;
+}
+
+.cardimg img {
   width: 100%;
+  height: 100%;
+  object-fit: cover; /* Hace que la imagen se expanda y se recorte para llenar el div */
+   object-position: top;
 }
 
 .children-who-i-am {

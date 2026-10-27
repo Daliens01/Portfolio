@@ -1,5 +1,5 @@
 import React from 'react'
-import BgHome from "../assets/bghome.png"
+import BgHome from "../assets/card1.png"
 const Projects = () => {
     return (
         <div className='my-8   '>
@@ -8,9 +8,10 @@ const Projects = () => {
             <div className=' grid  grid-cols-2 content-center'>
                 <div className="justify-self-center max-w-xs bg-white border border-gray-200 animated-card
                  rounded-lg shadow-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-                    <a href="#">
-                        <img className=' w-4xl  mb-2 mask-b-from-20% mask-b-to-80%' src={BgHome} />
-                    </a>
+                     <div className='cardimg rounded-lg'>
+                         
+                         <img className=' w-4xl  mb-2' src={BgHome} />
+                        </div>
                     <div className="p-5">
                         <a href="#">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight ">Last Access app for Moodle</h5>
@@ -26,10 +27,13 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                <div className="justify-self-center max-w-xs bg-white border border-gray-200 animated-card rounded-lg shadow-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 ">
-                    <a href="#">
-                        <img className=' w-4xl  mb-2 mask-b-from-20% mask-b-to-80% size-80 ' src={"https://img.wattpad.com/cover/416781650-256-k864095.jpg"} />
-                    </a>
+                <div className="justify-self-center max-w-xs bg-white border border-gray-200 animated-card 
+                rounded-lg shadow-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 ">
+                    <div className='cardimg rounded-lg'>
+                         
+                         <img className=' w-4xl  mb-2' src={"https://img.wattpad.com/cover/416781650-256-k864095.jpg"} />
+                        </div>
+                       
                     <div className="p-5">
                         <a href="#">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight ">Book: The Phantom - Hidden Souls {"(Spanish Version)"}</h5>

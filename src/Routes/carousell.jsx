@@ -4,7 +4,7 @@ import Bghome from "../assets/bghome.png"
 
 const MyCarrousell = () =>{ 
     return(
-            <div className={`flex flex-row place-content-center py-40 
+            <div className={`flex flex-row place-content-center py-40 mask-t-from-60% mask-b-from-60%
              bg-cover bg-center bg-no-repeat`}
              style={{ backgroundImage: `url(${Bghome})` }}>
                 <div className=" place-self-center">
