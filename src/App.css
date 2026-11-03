@@ -1,5 +1,7 @@
 @import "tailwindcss" ;
-
+html{
+    scroll-behavior: smooth;
+}
 .nav{
     background: linear-gradient(  rgba(143, 143, 143, 0.979),rgba(245, 242, 242, 0));
     position: sticky;
@@ -7,6 +9,7 @@
 }
 body{
     background-color: rgba(239, 243, 238, 0.644);
+    scroll-behavior: smooth;
 }
 .cardimg {
   width: 100%;       /* O el ancho que tú quieras (ej. 300px) */

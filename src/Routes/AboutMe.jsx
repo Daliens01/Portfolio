@@ -8,17 +8,14 @@ const AboutMe = () => {
       rounded-lg shadow-sm md:flex-row md:max-w-xl main-who-i-am bg-white ">
         <img className="object-cover w-full rounded-t-lg 
         h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={profilePic} alt="" />
-        <div className="flex flex-col justify-between p-4 leading-normal">
+        <div className="flex flex-col  p-4 leading-normal">
           <h5 className="mb-2 text-2xl font-bold tracking-tight ">Who am i ?</h5>
           <p className="mb-3 font-normal children-who-i-am ">
             I'm a TI Engineer graduated at the
             <a className="m-1 font-bold no-underline hover:underline text-blue-500 " 
             target="_blank" href="http://www.utsv.com.mx/">
               Universidad Tecnologia del Sureste de Veracruz.</a>
-            I love programing web pages. I have experience as full-stack developer using JavaScript with react JS to create
-            dynamic user interfaces in front-end and using node JS with many libraries for the creation of APIs. Recently i made
-            a web page that extract and manage the last access data of students in Moodle throught an API. Besides, i have
-            experience manage a Moodle plattform in a web server with linux and i provide thecnical support for stundets and teachers.
+            I love developing web pages, i love technology since i was a kid using my dad's desktop PC to play games and use programs. i am curious and i like to know the meaning of everything.
 
           </p>
         </div>
@@ -29,13 +26,10 @@ const AboutMe = () => {
        main-who-i-am">
         <img className="object-cover w-full rounded-t-lg 
         h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={profilePic} alt="" />
-        <div className="flex flex-col justify-between p-4 leading-normal">
+        <div className="flex flex-col  p-4 leading-normal">
           <h5 className="mb-2 text-2xl font-bold tracking-tight ">what i like to do</h5>
           <p className="mb-3 font-normal children-who-i-am  ">
-           when i was a kid, i realize technology was something that makes me feel happy. My dad
-           bought a desktop computer and i got fascinated about how it works and what things you could do.
-           but it wasn't my "cannon event" until i enter to college. Was there when i know about programing world
-           and something just click in my mind
+           i love make websites, the fact that something you type is "alive" is beautiful, is the same way when i write my stories to become books soon.
           </p>
         </div>
       </div>
@@ -45,10 +39,10 @@ const AboutMe = () => {
        main-who-i-am">
         <img className="object-cover w-full rounded-t-lg 
         h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={profilePic} alt="" />
-        <div className="flex flex-col justify-between p-4 leading-normal">
+        <div className="flex flex-col p-4 leading-normal">
           <h5 className="mb-2 text-2xl font-bold tracking-tight ">progress</h5>
           <p className="mb-3 font-normal children-who-i-am ">
-            i can see me developing in a big tech company doing what i love to do
+            i worked in a univerity as a mls Administrator working with moodle, godaddy and phpmyadmin it's here where i developed my first project you can see above.
           </p>
         </div>
       </div>
