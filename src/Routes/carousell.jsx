@@ -7,7 +7,7 @@ const MyCarrousell = () =>{
             <div className={`flex flex-row place-content-center py-40 mask-t-from-60% mask-b-from-60%
              bg-cover bg-center bg-no-repeat`}
              style={{ backgroundImage: `url(${Bghome})` }}>
-                <div className=" place-self-center">
+                <div className=" place-self-center px-5">
                     <h1 className="text-3xl font-bold ">Wellcome to my portfolio</h1>
                     <p className='m-3'>Hi! i am <a className='font-bold italic'>Heberto Ortiz</a>, a software developer passionate  by technology, 
                     i am a novel writer aswell. there is my <a className='font-bold italic'>Github</a> profile next button</p>

@@ -6,13 +6,13 @@ const Nav = () =>{
         <nav className=" justify-items-center nav py-2 sticky top-0">
         <ul  className= "grid grid-flow-col font-bold text-gray-700 " >
             <li className="  p-1.5 mx-5  ">
-              {location == "/" ?  <a href="/#carousell">Home</a>:<a href="/"> Home</a>}
+              {location == "/" ?  <a href="/#home">Home</a>:<a href="/"> Home</a>}
             </li>
             <li className="  p-1.5 mx-5 ">
-                {location == "/" ?  <a href={"/#projects"} >My projects</a>:""}
+                {location == "/" ?  <a href={"/#projects"} >My projects</a>:null}
             </li>
             <li className="  p-1.5 mx-5  ">
-                {location == "/" ?  <a href="/#about" >About Me</a>:""}
+                {location == "/" ?  <a href="/#about" >About Me</a>:null}
             </li>
         </ul>
         </nav>
