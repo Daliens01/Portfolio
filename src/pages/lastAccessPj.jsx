@@ -12,18 +12,17 @@ import mysqlimg from "../assets/mysql.png"
 import langselector from "../assets/languageselector.jpg"
 
 const Lastaccessproject = () => {
-    const [theme, setTheme] = React.useState("blanco");
+    const [theme, setTheme] = React.useState("light");
     const darkmode = (e) => {
-        e = theme
-        return e
+        setTheme(e)
     }
     return (
         <div className="justify-items-center">
             <div className="pb-10">
-                <h1 className=" place-self-center font-bold text-3xl pb-5">Last Access App for Moodle {theme}</h1>
+                <h1 className=" place-self-center font-bold text-3xl pb-5">Last Access App for Moodle</h1>
             </div>
             <div className="flex flex-row justify-center pb-10 ">
-                <img className="size-5/12 rounded-lg px-2 mask-r-from-60%" src={light}></img>
+                <img className="size-5/12 rounded-lg px-2 mask-r-from-60%" src={theme == "light"? light:dark}></img>
                 <div className="px-2">
                     <p className="place-self-center text-justify w-2xl">This app has as objetive to recollect the last access data
                         from students registered from custom courses. it is connected by a functional moodle plattform database.
@@ -32,7 +31,8 @@ const Lastaccessproject = () => {
                         i developed for my actual work that has a moodle plattform and i deployed localy for my co workers to use only in their work computer,
                         that is why i don't have a link to share
                     </p>
-                    <button onClick={darkmode("dark")} className="cursor-pointer">Clic to change the image to dark mode</button>
+                    <button onClick={clickbutton=>darkmode(theme=="light"?"dark":"light")}
+                     className="cursor-pointer font-bold">Click to change the image to {theme=="light"?"dark":"light"} mode</button>
                 </div>
             </div>
 
@@ -78,7 +78,7 @@ const Lastaccessproject = () => {
             </div>
             <div className="grid grid-cols-2 place-content-evenly gap-4 pb-52">
                 <div className=" w-2xl">
-                    <p className="pb-5  ">You can see every student that is not entering to their coursees form at least 15 days or never status</p>
+                    <p className="pb-5  ">You can see every student that is not entering to their courses form at least 15 days or never status</p>
                     <img className="rounded-lg mask-t-from-90%" src={table}></img>
                 </div>
                 <div>
@@ -88,7 +88,7 @@ const Lastaccessproject = () => {
                         {/* <img className="px-2 mask-b-from-50% mask-radial-[50%_90%] mask-radial-from-80%" src={downloadedfile}></img> */}
                     </div>
                     <div>
-                        <p>To see more information about the code, you can go to the repositorie</p>
+                        <p>To see more information about the code, you can go to the repositorie:</p>
                         <button className="rounded-md bg-violet-300 p-1.5
                  cursor-pointer hover:bg-violet-400 shadow-md"
                             onClick={() => { window.open("https://github.com/Daliens01") }}>Repositorie</button>

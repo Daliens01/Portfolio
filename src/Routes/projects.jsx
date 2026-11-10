@@ -1,5 +1,5 @@
 import React from 'react'
-import BgHome from "../assets/card1.png"
+import BgHome from "../assets/dark.png"
 const Projects = () => {
     return (
         <div className='my-8   '>
