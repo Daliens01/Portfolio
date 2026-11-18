@@ -2,9 +2,9 @@ import React from "react";
 import profilePic from "../assets/profilepic.jpg"
 const AboutMe = () => {
   return (
-    <div className="flex my-4 justify-center  z-30">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-1 my-4 justify-center  z-30">
       {/* who am i */}
-      <div  className="mx-4 flex flex-col  transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110
+      <div  className="mx-4 flex flex-col  transition duration-300 md:hover:-translate-y-1 md:hover:scale-105
       rounded-lg shadow-sm md:flex-row md:max-w-xl main-who-i-am bg-white ">
         <img className="object-cover w-full rounded-t-lg 
         h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={profilePic} alt="" />
@@ -21,7 +21,7 @@ const AboutMe = () => {
         </div>
       </div>
       {/* what i like to do */}
-      <div className="mx-4 flex flex-col  bg-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110
+      <div className="mx-4 flex flex-col  transition duration-300 hover:-translate-y-1 hover:scale-105
       rounded-lg shadow-sm md:flex-row md:max-w-xl 
        main-who-i-am">
         <img className="object-cover w-full rounded-t-lg 
@@ -34,7 +34,7 @@ const AboutMe = () => {
         </div>
       </div>
       {/* progress */}
-      <div className="mx-4 flex flex-col  bg-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110
+      <div className="mx-4 flex flex-col  transition duration-300 hover:-translate-y-1 hover:scale-105
       rounded-lg shadow-sm md:flex-row md:max-w-xl 
        main-who-i-am">
         <img className="object-cover w-full rounded-t-lg 
