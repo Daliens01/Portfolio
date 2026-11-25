@@ -19,34 +19,34 @@ const Lastaccessproject = () => {
     return (
         <div className="justify-items-center">
             <div className="pb-10">
-                <h1 className=" place-self-center font-bold text-3xl pb-5">Last Access App for Moodle</h1>
+                <h1 className=" place-self-center font-bold md:text-3xl pb-5">Last Access App for Moodle</h1>
             </div>
-            <div className="flex flex-row justify-center pb-10 ">
-                <img className="size-5/12 rounded-lg px-2 mask-r-from-60%" src={theme == "light"? light:dark}></img>
-                <div className="px-2">
-                    <p className="place-self-center text-justify w-2xl">This app has as objetive to recollect the last access data
+            <div className="grid grid-cols-1 md:grid md:grid-cols-2 justify-items-center pb-10 ">
+                <img className="md:w-[660px] md:h-[318px] md:rounded-lg md:px-2 md:mask-r-from-60% " src={theme == "light"? light:dark}></img>
+                <div className=" grid grid-cols-1 justify-self-start">
+                    <p className=" text-justify text-sm md:text-base md:w-2xl  md:p-0 p-5 ">This app has as objetive to recollect the last access data
                         from students registered from custom courses. it is connected by a functional moodle plattform database.
                     </p>
-                    <p className="place-self-center text-justify w-2xl pb-5">
-                        i developed for my actual work that has a moodle plattform and i deployed localy for my co workers to use only in their work computer,
-                        that is why i don't have a link to share
+                    <p className=" text-justify text-sm md:text-base pb-5 md:w-2xl md:p-0 p-5 ">
+                        I developed for my actual work that has a moodle plattform and i deployed localy for my co workers to use only in their work computer,
+                        that is why i don't have a link to share.
                     </p>
-                    <button onClick={clickbutton=>darkmode(theme=="light"?"dark":"light")}
-                     className="cursor-pointer font-bold">Click to change the image to {theme=="light"?"dark":"light"} mode</button>
+                    <div className="place-self-center">
+                        <button onClick={clickbutton=>darkmode(theme=="light"?"dark":"light")}
+                     className="cursor-pointer font-bold italic">Click here to change the image to {theme=="light"?"dark":"light"} mode</button>
+                    </div>
                 </div>
             </div>
-
-            <div className="grid grid-cols-3 gap-4 pb-10">
+            <div className="grid grid-cols-1 md:grid md:grid-cols-3 gap-4 pb-10">
 
                 <div className=" max-w-xs bg-white border border-gray-200 animated-card 
                 rounded-lg shadow-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 ">
                     <div className='cardimg rounded-lg'>
-
                         <img className=' w-4xl  mb-2' src={select} />
                     </div>
 
                     <div className="p-5">
-                        <p>You need to select the courses categories to display users last access data. This courses categories info was typed manually</p>
+                        <p className="text-sm md:text-base">You need to select the courses categories to display users last access data. This courses categories info was typed manually</p>
                     </div>
                 </div>
                 <div className=" max-w-xs bg-white border border-gray-200 animated-card 
@@ -57,7 +57,7 @@ const Lastaccessproject = () => {
                     </div>
 
                     <div className="p-5">
-                        <p>At the moment is only available in spanish but i am working in an english version with an new interface to put your own id courses to use in your moodle plattform</p>
+                        <p className="text-sm md:text-base">At the moment is only available in spanish but i am working in an english version with an new interface to put your own id courses to use in your moodle plattform</p>
                     </div>
                 </div>
                 <div className=" max-w-xs bg-white border border-gray-200 animated-card 
@@ -67,31 +67,33 @@ const Lastaccessproject = () => {
                         <img className=' size-24  mb-2' src={nodeimg} />
                         <img className=' size-24  mb-2' src={mysqlimg} />
                     </div>
-                    <ul className="p-5 ">
-                        <li>This app was made using:</li>
-                        <li className="p-5">React JS in Frontend powered with HeroUI framework</li>
-                        <li className="p-5">Node JS in Backend</li>
-                        <li className="p-5">Mysql as my DB</li>
+                    <ul className="p-5">
+                        <li className="text-sm md:text-base">This app was made using:</li>
+                        <li className="p-5 text-sm md:text-base">React JS in Frontend powered with HeroUI framework</li>
+                        <li className="p-5 text-sm md:text-base">Node JS in Backend</li>
+                        <li className="p-5 text-sm md:text-base">Mysql as my DB</li>
                     </ul>
 
                 </div>
             </div>
-            <div className="grid grid-cols-2 place-content-evenly gap-4 pb-52">
-                <div className=" w-2xl">
-                    <p className="pb-5  ">You can see every student that is not entering to their courses form at least 15 days or never status</p>
-                    <img className="rounded-lg mask-t-from-90%" src={table}></img>
+            <div className="grid grid-cols-1 md:grid md:grid-cols-2 place-content-evenly gap-4 pb-52">
+                <div className="md:w-2xl">
+                    <p className="pb-5 md:px-0 px-5 ">You can see every student that is not entering to their courses from at least 15 days or never status</p>
+                    <img className="rounded-lg mask-t-from-90% md:w-[672px] md:h-[332]" src={table}></img>
                 </div>
                 <div>
-                    <p className="pb-5">Below the table there is a download button to save all data as a xlsx file</p>
+                    <p className="pb-5 md:px-0 px-5">Below the table there is a download button to save all data as a xlsx file</p>
                     <div className="flex flex-row pb-5 ">
                         <img className="px-2 mask-y-from-70% mask-y-to-90%" src={downloadbutton}></img>
                         {/* <img className="px-2 mask-b-from-50% mask-radial-[50%_90%] mask-radial-from-80%" src={downloadedfile}></img> */}
                     </div>
                     <div>
-                        <p>To see more information about the code, you can go to the repositorie:</p>
-                        <button className="rounded-md bg-violet-300 p-1.5
+                        <p className="md:px-0 px-5 pb-5">To see more information about the code, you can go to the repositorie:</p>
+                        <div className="md:pb-3 md:pr-3 place-self-center pb-2 md:place-self-end">
+                            <button className="rounded-md bg-violet-300 p-1.5
                  cursor-pointer hover:bg-violet-400 shadow-md"
                             onClick={() => { window.open("https://github.com/Daliens01") }}>Repositorie</button>
+                        </div>
                     </div>
                 </div>
             </div>
