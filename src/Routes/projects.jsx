@@ -8,10 +8,12 @@ const Projects = () => {
                 <h1 className=' p-3 flex justify-center'>There are some of my projects i made</h1>
             </div>
             <div className='grid grid-cols-2 content-center'>
-                <div className="justify-self-center w-44   grid  grid-cols-1 md:w-xs md:h-full bg-white border border-gray-200 
-                 rounded-lg shadow-sm transition  duration-300  hover:-translate-y-1 hover:scale-110">
-                    <div className='cardimg rounded-lg'>
-                        <img className='' src={BgHome} />
+                <div className="justify-self-center w-44   grid  grid-cols-1 md:w-xs md:h-full 
+                bg-gradient-to-br from-white/30 via-white/70 to-white/5 backdrop-blur-md saturate-150 border border-white/35 
+                shadow-xl shadow-black/20 ring-1 ring-inset ring-wh 
+                 rounded-lg transition  duration-300  hover:-translate-y-1 hover:scale-110">
+                    <div className='cardimg '>
+                        <img className='rounded-lg' src={BgHome} />
                     </div>
                     <div className="p-5">
                         <a>
@@ -31,8 +33,8 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="justify-self-center  w-44  grid  grid-cols-1 md:w-xs md:h-full bg-white border border-gray-200 rounded-lg shadow-sm transition  duration-300  hover:-translate-y-1 hover:scale-110 ">
-                    <div className='cardimg rounded-lg'>
-                        <img className='' src={"https://img.wattpad.com/cover/416781650-256-k864095.jpg"} />
+                    <div className='cardimg'>
+                        <img className='rounded-lg' src={"https://img.wattpad.com/cover/416781650-256-k864095.jpg"} />
                     </div>
                     <div className="p-5">
                         <a>

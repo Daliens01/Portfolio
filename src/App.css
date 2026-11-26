@@ -6,13 +6,34 @@ html{
     background: linear-gradient(  rgba(143, 143, 143, 0.979),rgba(245, 242, 242, 0));
 }
 body{
-    background-color: rgba(239, 243, 238, 0.644);
+    background:
+    linear-gradient(180deg, #f7f7f7 35%, #233946 100%);
     scroll-behavior: smooth;
 }
 .cardimg {
   width: 100%;       /* O el ancho que tú quieras (ej. 300px) */
   height: 200px;     /* Es necesario definir una altura para ver el efecto */
+  
+}
+
+.tarjeta-cristal {
+  position: relative;
   overflow: hidden;
+  border-radius: 20px;
+  padding: 1.5rem;
+
+  /* Transparencia con tinte de color */
+  background: rgba(56, 189, 248, 0.14); /* Azul cian suave */
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+
+  /* Borde de cristal iluminado */
+  border: 1px solid rgba(255, 255, 255, 0.22);
+
+  /* Profundidad y brillo sutil */
+  box-shadow:
+    0 12px 32px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
 .cardimg img {

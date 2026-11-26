@@ -3,8 +3,7 @@ import { useLocation } from "react-router-dom"
 const Nav = () => {
     const location = useLocation().pathname;
     return (
-        <div>
-            <nav className=" justify-items-center nav py-2 z-50 sticky top-0 left-0 w-full">
+         <nav className=" justify-items-center nav py-2  sticky top-0 z-50">
                 {location == "/" ? 
                 <ul className="grid grid-flow-col font-bold text-gray-700 " >
                     <li className="  p-1.5 mx-5  ">
@@ -25,7 +24,6 @@ const Nav = () => {
                 </ul>
                 }
             </nav>
-        </div>
     )
 }
 
