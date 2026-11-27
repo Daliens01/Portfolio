@@ -39,7 +39,7 @@ const Lastaccessproject = () => {
             </div>
             <div className="grid grid-cols-1 md:grid md:grid-cols-3 gap-4 pb-10">
 
-                <div className=" max-w-xs text-gray-800
+                <div className=" max-w-xs text-sky-900
                 bg-gradient-to-br from-white/25 via-white/10 to-white/5 backdrop-blur-md saturate-150 border border-white/35 shadow-black/20 ring-1 ring-inset ring-white/20
                 animated-card 
                 rounded-lg shadow-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 ">
@@ -48,11 +48,13 @@ const Lastaccessproject = () => {
                     </div>
 
                     <div className="p-5">
-                        <p className="text-sm md:text-base">You need to select the courses categories to display users last access data. This courses categories info was typed manually</p>
+                        <p className="text-sm md:text-base">You need to select the courses categories to display users last access data. 
+                            This courses categories info was typed manually in backend</p>
                     </div>
                 </div>
-                <div className=" max-w-xs  text-gray-800
-                bg-gradient-to-br from-white/25 via-white/10 to-white/5 backdrop-blur-md saturate-150 border border-white/35 shadow-xl shadow-black/20 ring-1 ring-inset ring-white/20
+                <div className=" max-w-xs  text-sky-900
+                bg-gradient-to-br from-white/25 via-white/10 to-white/5 backdrop-blur-md saturate-150 border
+                 border-white/35 shadow-xl shadow-black/20 ring-1 ring-inset ring-white/20
                 animated-card 
                 rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 ">
                     <div className='cardimg rounded-lg'>
@@ -64,7 +66,7 @@ const Lastaccessproject = () => {
                         <p className="text-sm md:text-base">At the moment is only available in spanish but i am working in an english version with an new interface to put your own id courses to use in your moodle plattform</p>
                     </div>
                 </div>
-                <div className=" max-w-xs  text-gray-800
+                <div className=" max-w-xs  text-sky-900
                 bg-gradient-to-br from-white/25 via-white/10 to-white/5 backdrop-blur-md saturate-150 border border-white/35 shadow-xl shadow-black/20 ring-1 ring-inset ring-white/20
                 animated-card 
                 rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 ">
@@ -75,28 +77,29 @@ const Lastaccessproject = () => {
                     </div>
                     <ul className="p-5">
                         <li className="text-sm md:text-base">This app was made using:</li>
-                        <li className="p-5 text-sm md:text-base">React JS in Frontend powered with HeroUI framework</li>
-                        <li className="p-5 text-sm md:text-base">Node JS in Backend</li>
-                        <li className="p-5 text-sm md:text-base">Mysql as my DB</li>
+                        <li className="p-1.5 text-sm md:text-base">React JS in Frontend powered with HeroUI framework</li>
+                        <li className="p-1.5 text-sm md:text-base">Node JS in Backend</li>
+                        <li className="p-1.5 text-sm md:text-base">Mysql as my DB</li>
+                        <li className="p-1.5 text-sm md:text-base">I used a custom API to fetch the data from Mysql</li>
                     </ul>
 
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid md:grid-cols-2 place-content-evenly gap-4 pb-52">
-                <div className="md:w-2xl   text-white">
+                <div className="md:w-2xl   text-cyan-600">
                     <p className="pb-5 md:px-0 px-5 ">You can see every student that is not entering to their courses from at least 15 days or never status</p>
                     <img className="rounded-lg md:w-[672px] md:h-[332]" src={table}></img>
                 </div>
                 <div>
-                    <p className="pb-5 md:px-0 px-5  text-white">Below the table there is a download button to save all data as a xlsx file</p>
+                    <p className="pb-5 md:px-0 px-5  text-cyan-600">Below the table there is a download button to save all data as a xlsx file</p>
                     <div className="flex flex-row pb-5 ">
                         <img className=" rounded-lg" src={downloadbutton}></img>
                         {/* <img className="px-2 mask-b-from-50% mask-radial-[50%_90%] mask-radial-from-80%" src={downloadedfile}></img> */}
                     </div>
                     <div>
-                        <p className="md:px-0 px-5 pb-5  text-white">To see more information about the code, you can go to the repositorie:</p>
+                        <p className="md:px-0 px-5 pb-5  text-cyan-600">To see more information about the code, you can go to the repositorie:</p>
                         <div className="md:pb-3 md:pr-3 place-self-center pb-2 md:place-self-end text-white">
-                            <button className="rounded-md bg-violet-400  p-2
+                            <button className="rounded-md bg-violet-400  p-2 font-bold text-gray-800
                  cursor-pointer hover:bg-violet-300 shadow-md"
                                 onClick={() => { window.open("https://github.com/Daliens01") }}>Repositorie</button>
                         </div>

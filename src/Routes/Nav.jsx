@@ -7,7 +7,7 @@ const Nav = () => {
                 {location == "/" ? 
                 <ul className="grid grid-flow-col font-bold text-gray-700 " >
                     <li className="  p-1.5 mx-5  ">
-                        {location == "/" ? <a href={"/"} >Home</a> : null}
+                        {location == "/" ? <a href={"/#carousell"} >Home</a> : null}
                     </li>
                     <li className="  p-1.5 mx-5 ">
                         {location == "/" ? <a href={"/#projects"} >My projects</a> : null}
