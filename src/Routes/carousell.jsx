@@ -14,7 +14,8 @@ const MyCarrousell = () =>{
                     i am a novel writer aswell. there is my <a className='font-bold italic'>Github</a> profile next button</p>
                     <button className="inline-flex items-center px-3 py-2  text-sm font-medium text-center
                            text-violet-950 bg-gradient-to-br from-violet-400/50 via-violet-600/20 to-transparent backdrop-blur-md 
-                           saturate-150 border border-violet-200/30 shadow-violet-950/30 rounded-md hover:from-violet-800/50 hover:via-violet-800/40 cursor-pointer"  
+                           saturate-150 border border-violet-200/30 shadow-violet-950/30 rounded-md hover:from-violet-800/50 hover:via-violet-800/40 cursor-pointer
+                           transition  duration-200  hover:-translate-y-1 hover:scale-95 "  
                  onClick={()=>{window.open("https://github.com/Daliens01")}}>Click to go to my GitHub Profile</button>
                 </div>
                 <div className="mt-14 justify-items-center
